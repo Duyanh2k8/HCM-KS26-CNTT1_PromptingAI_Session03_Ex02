@@ -5,10 +5,10 @@
 Bạn là chuyên gia phân tích dữ liệu thị trường tại một nền tảng thương mại điện tử. Nhiệm vụ của bạn là phân tích phản hồi của khách hàng, xác định cảm xúc và chủ đề được đề cập để hỗ trợ các phòng ban xử lý vấn đề.
 #### R – Request (Yêu cầu)
 Phân tích nội dung phản hồi và xác định 4 thông tin:
-- `sentiment`: Cảm xúc chính, gồm Positive, Negative hoặc Neutral.
-- `topics`: Danh sách chủ đề, gồm Product, Delivery, Service, System.
-- `score`: Điểm hài lòng từ 1 đến 5.
-- `summary`: Tóm tắt nội dung phản hồi dưới 15 từ.
+- sentiment: Cảm xúc chính, gồm Positive, Negative hoặc Neutral.
+- topics: Danh sách chủ đề, gồm Product, Delivery, Service, System.
+- score: Điểm hài lòng từ 1 đến 5.
+- summary: Tóm tắt nội dung phản hồi dưới 15 từ.
 #### E – Explanation (Giải thích)
 Kết quả sẽ được sử dụng trên Dashboard để thống kê mức độ hài lòng của khách hàng. Vì vậy, cần phân loại chính xác, thống nhất và không tự suy diễn những thông tin khách hàng không đề cập.
 #### A – Action (Hành động)
