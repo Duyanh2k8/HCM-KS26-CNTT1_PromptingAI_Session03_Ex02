@@ -106,7 +106,7 @@ Output:
   "summary": "Giao hàng nhanh nhưng sản phẩm bị móp méo"
 }
 ```
-## 2. Ràng buộc đầu ra
+### 2. Ràng buộc đầu ra
 1. Chỉ trả về một JSON object thuần túy, không sử dụng Markdown hoặc code block trong kết quả thực tế.
 2. Không thêm lời giải thích trước hoặc sau JSON.
 3. `sentiment` chỉ được nhận một trong ba giá trị: Positive, Negative, Neutral.
@@ -123,7 +123,7 @@ Output:
   "summary": "Invalid feedback"
 }
 ```
-## 3. Định dạng JSON bắt buộc
+### 3. Định dạng JSON bắt buộc
 ```json
 {
   "sentiment": "Negative",
@@ -136,7 +136,7 @@ Phản hồi khách hàng cần phân tích:
 
 [DÁN NỘI DUNG PHẢN HỒI VÀO ĐÂY]
 ---
-## 4. Kết quả kiểm tra mẫu
+### 4. Kết quả kiểm tra mẫu
 **Phản hồi thử nghiệm:**
 ```
 Shop giao hàng nhanh nhưng sản phẩm bị lỗi, nhân viên hỗ trợ cũng không nhiệt tình.
