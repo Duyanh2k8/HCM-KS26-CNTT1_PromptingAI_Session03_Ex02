@@ -33,16 +33,12 @@ Thực hiện các bước:
 - Service: Nhân viên, tư vấn, chăm sóc khách hàng.
 - System: Website, ứng dụng, thanh toán, lỗi kỹ thuật.
 
-Lưu ý: Một phản hồi có thể chứa nhiều chủ đề. Phải đưa tất cả chủ đề liên quan vào mảng `topics` và không được bỏ sót.
-
 **Satisfaction Score:**
 - 5: Rất hài lòng.
 - 4: Hài lòng.
 - 3: Bình thường.
 - 2: Không hài lòng.
 - 1: Rất không hài lòng.
-
-Nếu phản hồi có cả khen và chê, đánh giá cảm xúc tổng thể và chấm điểm dựa trên mức độ hài lòng chung.
 #### T – Tone (Phong cách)
 Phân tích khách quan, chính xác, ngắn gọn. Không thêm nhận xét cá nhân hoặc sử dụng ngôn ngữ cảm xúc.
 #### E – Extras (Ví dụ Few-shot)
